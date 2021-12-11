@@ -1,0 +1,626 @@
+/* first ----------------- */
+.first {
+  background: url("./TeamImage/back.jpg") no-repeat fixed;
+  width: 100%;
+  background-size: 100%;
+  height: 600px;
+  margin-top: 90px;
+}
+.first .white {
+  background: rgba(0, 0, 0, 0.548);
+  height: 600px;
+  text-align: center;
+  /* background: linear-gradient(to top, white, #eee, white, #eee, #eee); */
+  /* margin-left: auto; */
+}
+.first h1 {
+  margin-top: 210px;
+  color: white;
+  font-size: 39px;
+  text-transform: capitalize;
+}
+.first p {
+  margin-top: 0px;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #eee;
+}
+
+.first button {
+  background: #eee;
+  width: 300px;
+  color: #0000ff !important;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^ end comp1 ^^^^^^ */
+
+/* --------------services-------------- */
+.InstrServices .container .row {
+  margin: auto;
+}
+
+.InstrServices .container .row h1 {
+  margin-top: 100px;
+  color: #0000ff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: 14px;
+}
+
+.InstrServices .container .row img {
+  width: 32%;
+  margin: auto;
+}
+.InstrServices .container .row .card {
+  border: none;
+  text-align: center;
+  box-shadow: inset 1px 1px 15px rgb(224, 224, 224);
+  margin-left: 1px;
+  padding: 20px;
+  width: 400px;
+  margin-left: 30px;
+}
+
+.InstrServices .container .row .card h3 {
+  color: #0000ff;
+  margin-top: 10px;
+}
+
+/* instructorteam  OUR INSTRUCTORE TEAM ----------------- */
+.instructorteam {
+  overflow: hidden;
+  text-transform: capitalize;
+  text-align: center;
+  height: 780px;
+}
+.instructorteam .container .row h4 {
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-top: 60px;
+  font-weight: none;
+  color: #0000ff;
+  margin-bottom: 30px;
+}
+.instructorteam .card {
+  height: 330px;
+  padding: 10px;
+  
+}
+.instructorteam .card:hover {
+  box-shadow: inset 1px 1px 17px rgb(219, 216, 216);
+}
+.instructorteam .mySwiper .card img {
+  height: 200px;
+width: cover;}
+.instructorteam .mySwiper {margin-top: 50px;}
+.instructorteam .mySwiper .card img:hover {
+  filter: brightness(0.7);
+  transition: all 0.6s;
+}
+
+.instructorteam .mySwiper .card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #0000ff;
+  text-transform: capitalize;
+}
+
+.instructorteam .mySwiper .card h5 {
+  color: gray;
+}
+
+/* askTeam----- form left compnent--------------- */
+
+.askTeam {
+  height: 790px;
+  margin-top: -80px;
+  background-color: rgba(238, 238, 238, 0.377);
+  /* margin-bottom: 90px; */
+  padding-top: 40px;
+}
+.askTeam h1 {
+  text-transform: capitalize;
+  font-size: 36px;
+  margin-top: 70px;
+}
+.askTeam h3 {
+  font-size: 16px;
+  color: gray;
+}
+.askTeam p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #db2d41;
+}
+
+.askTeam img {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.askTeam form {
+  width: 600px;
+  height: 420px;
+  box-shadow: 1px 1px 16px rgb(228, 220, 220);
+  padding: 30px;
+}
+
+.askTeam .form-style-4 {
+  width: 450px;
+  font-size: 16px;
+  padding: 30px;
+  box-shadow: 1px 1px 17px rgb(211, 210, 210);
+}
+.askTeam form button {
+  width: 240px;
+  border-radius: 10px;
+  background-color: #0000ff;
+}
+
+.askTeam .textHeader {
+  text-align: center;
+  background-color: #a31727;
+  color: rgb(219, 216, 216);
+  margin-bottom: 30px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .first {
+    background: transparent;
+    height: 340px;
+  }
+  .first .white {
+    height: 360px;
+  }
+  .first .white h1 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-top: 60px;
+  }
+  .InstrServices h1 {
+    font-size: 20px;
+  }
+  .InstrServices .container .row .card {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .InstrServices .container .row .card h3 {
+    font-size: 17px;
+  }
+  .InstrServices .container .row .card img {
+    width: 20%;
+  }
+  .InstrServices .container .row .card p {
+    font-size: 10px;
+  }
+  .instructorteam {
+    margin-top: -150px;
+  }
+  .instructorteam h1 {
+    display: none;
+  }
+  .instructorteam h4 {
+    margin-bottom: 190px;
+  }
+  .instructorteam .mySwiper .card {
+    height: 230px;
+    margin-top: -150px;
+  }
+  .instructorteam .mySwiper .card img {
+    height: 100px;
+    margin: auto;
+  }
+  .instructorteam .mySwiper .card h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .instructorteam .mySwiper .card h5 {
+    font-size: 10px;
+  }
+  .askTeam {
+    height: 500px;
+  }
+  .askTeam h1 {
+    font-size: 20px;
+    margin-top: -160px;
+  }
+
+  .askTeam form {
+    width: 400px;
+    margin: auto;
+    font-size: xx-small;
+  }
+  .askTeam ::placeholder {
+    font-size: 10px;
+  }
+  .askTeam button {
+    font-size: 13px;
+  }
+  .component-firttDiv {
+    display: none;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .first {
+    background: transparent;
+    height: 340px;
+  }
+  .first .white {
+    height: 360px;
+    margin: auto;
+  }
+  .first .white h1 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-top: 60px;
+  }
+  .InstrServices h1 {
+    font-size: 20px;
+  }
+  .InstrServices .container .row .card {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .InstrServices .container .row .card h3 {
+    font-size: 17px;
+  }
+  .InstrServices .container .row .card img {
+    width: 20%;
+  }
+  .InstrServices .container .row .card p {
+    font-size: 10px;
+  }
+  .instructorteam {
+    margin-top: -210px;
+  }
+  .instructorteam h1 {
+    display: none;
+  }
+  .instructorteam h4 {
+    margin-bottom: 190px;
+  }
+  .instructorteam .mySwiper .card {
+    height: 230px;
+    margin-top: -150px;
+  }
+  .instructorteam .mySwiper .card img {
+    height: 100px;
+    margin: auto;
+  }
+  .instructorteam .mySwiper .card h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .instructorteam .mySwiper .card h5 {
+    font-size: 10px;
+  }
+  .askTeam {
+    height: 600px;
+  }
+  .askTeam h1 {
+    font-size: 20px;
+    margin-top: -100px;
+  }
+
+  .askTeam form {
+    width: 400px;
+    margin: auto;
+    font-size: xx-small;
+  }
+  .askTeam ::placeholder {
+    font-size: 10px;
+  }
+  .askTeam button {
+    font-size: 13px;
+  }
+  .component-firttDiv {
+    display: none;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .first {
+    background: transparent;
+    height: 340px;
+  }
+  .first .white {
+    height: 360px;
+    margin: auto;
+  }
+  .first .white h1 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-top: 60px;
+  }
+  .InstrServices h1 {
+    font-size: 20px;
+  }
+  .InstrServices .container .row .card {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .InstrServices .container .row .card h3 {
+    font-size: 17px;
+  }
+  .InstrServices .container .row .card img {
+    width: 20%;
+  }
+  .InstrServices .container .row .card p {
+    font-size: 10px;
+  }
+  .instructorteam {
+    margin-top: -210px;
+  }
+  .instructorteam h1 {
+    display: none;
+  }
+  .instructorteam h4 {
+    margin-bottom: 190px;
+  }
+  .instructorteam .mySwiper .card {
+    height: 230px;
+    margin-top: -150px;
+  }
+  .instructorteam .mySwiper .card img {
+    height: 100px;
+    margin: auto;
+  }
+  .instructorteam .mySwiper .card h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .instructorteam .mySwiper .card h5 {
+    font-size: 10px;
+  }
+  .askTeam {
+    height: 600px;
+  }
+  .askTeam h1 {
+    font-size: 20px;
+    margin-top: -100px;
+  }
+
+  .askTeam form {
+    width: 400px;
+    margin: auto;
+    font-size: xx-small;
+  }
+  .askTeam ::placeholder {
+    font-size: 10px;
+  }
+  .askTeam button {
+    font-size: 13px;
+  }
+  .component-firttDiv {
+    display: none;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .first {
+    background: transparent;
+    height: 340px;
+  }
+  .first .white {
+    height: 360px;
+    margin: auto;
+  }
+  .first .white h1 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-top: 60px;
+  }
+  .InstrServices h1 {
+    font-size: 20px;
+  }
+  .InstrServices .container .row .card {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 220px;
+  }
+  .InstrServices .container .row .card h3 {
+    font-size: 17px;
+  }
+  .InstrServices .container .row .card img {
+    width: 20%;
+  }
+  .InstrServices .container .row .card p {
+    font-size: 10px;
+  }
+  .instructorteam {
+    margin-top: -210px;
+  }
+  .instructorteam h1 {
+    display: none;
+  }
+  .instructorteam h4 {
+    margin-bottom: 190px;
+  }
+  .instructorteam .mySwiper .card {
+    height: 230px;
+    margin-top: -150px;
+  }
+  .instructorteam .mySwiper .card img {
+    height: 100px;
+    margin: auto;
+  }
+  .instructorteam .mySwiper .card h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .instructorteam .mySwiper .card h5 {
+    font-size: 10px;
+  }
+  .askTeam {
+    height: 600px;
+  }
+  .askTeam h1 {
+    font-size: 20px;
+    margin-top: -100px;
+  }
+
+  .askTeam form {
+    width: 400px;
+    margin: auto;
+    font-size: xx-small;
+  }
+  .askTeam ::placeholder {
+    font-size: 10px;
+  }
+  .askTeam button {
+    font-size: 13px;
+  }
+  .component-firttDiv {
+    display: none;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .first {
+    background: transparent;
+    height: 340px;
+  }
+  .first .white {
+    height: 360px;
+    margin: auto;
+  }
+  .first .white h1 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-top: 60px;
+  }
+  .InstrServices {
+    margin-top: -30px;
+  }
+  .InstrServices h1 {
+    font-size: 20px;
+  }
+  .InstrServices .container .row .card {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 300px;
+  }
+  .InstrServices .container .row .card h3 {
+    font-size: 17px;
+  }
+  .InstrServices .container .row .card img {
+    width: 20%;
+  }
+  .InstrServices .container .row .card p {
+    font-size: 10px;
+  }
+  .instructorteam {
+    margin-top: -210px;
+  }
+  .instructorteam h1 {
+    display: none;
+  }
+  .instructorteam {
+    height: 400px;
+  }
+  .instructorteam h4 {
+    margin-bottom: 190px;
+  }
+  .instructorteam .mySwiper .card {
+    height: 230px;
+    margin-top: -530px;
+    width: 300px;
+  }
+  .instructorteam .mySwiper .card img {
+    height: 100px;
+    margin: auto;
+  }
+  .instructorteam .mySwiper .card h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .instructorteam .mySwiper .card h5 {
+    font-size: 10px;
+  }
+  .askTeam {
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .askTeam h1 {
+    font-size: 20px;
+    margin-top: -100px;
+  }
+
+  .askTeam form {
+    width: 400px;
+    margin: auto;
+    font-size: xx-small;
+  }
+  .askTeam ::placeholder {
+    font-size: 10px;
+  }
+  .askTeam button {
+    font-size: 13px;
+  }
+  .component-firttDiv {
+    margin-top: -199px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .InstrServices .container .row .card {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 340px;
+  }
+  .InstrServices .container .row .card h3 {
+    font-size: 17px;
+  }
+  .InstrServices .container .row .card img {
+    width: 40%;
+  }
+  .InstrServices .container .row .card p {
+    font-size: 10px;
+  }
+
+  .instructorteam {
+    margin-top: -210px;
+  }
+  .instructorteam h1 {
+    display: none;
+  }
+  .instructorteam {
+    height: 400px;
+    margin-bottom: 100px;
+  }
+  .instructorteam h4 {
+    margin-bottom: 190px;
+  }
+  .instructorteam .mySwiper .card {
+    height: 260px;
+    margin-top: -530px;
+    width: 300px;
+  }
+  .instructorteam .mySwiper .card img {
+    height: 160px;
+    margin: auto;
+  }
+  .instructorteam .mySwiper .card h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .instructorteam .mySwiper .card h5 {
+    font-size: 10px;
+  }
+}

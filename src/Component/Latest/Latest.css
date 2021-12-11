@@ -1,0 +1,158 @@
+/* our student say */
+.latest {
+  height: 500px;
+  margin-top: 280px;
+}
+/* img */
+.latest .container .row .images img {
+  width: 79%;
+  box-shadow: 1px 1px 17px rgb(221, 215, 215);
+}
+/* text above carousel */
+.latest .container .row .textssssss {
+  text-align: center;
+  margin-top: 60px;
+}
+.latest .container .row .textssssss h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.latest .container .row .textssssss h1 {
+  text-transform: capitalize;
+  color:  #0000ff;
+  border-bottom: 2px solid rgb(231, 231, 231);
+  padding-bottom: 10px;
+}
+/* carousel */
+.latest .mySwiper {
+  margin-top: -100px;
+  height: 400px;
+}
+
+.latest .mySwiper .slides {
+  display: flex;
+  flex-flow: column;
+  padding: 70px;
+}
+/* text inside slides */
+.latest .mySwiper .slides h3 {
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.latest .mySwiper .slides p {
+  margin-top: 10px;
+  /* background: #eee; */
+  color: black;
+  padding: 10px;
+}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .latest {
+    margin-top: -10px;
+    margin-top: 40px;
+  }
+  .latest .container .row .images img {
+    display: none;
+  }
+
+  .latest hr {
+    display: none;
+  }
+  .latest h1 {
+    font-size: 18px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 10px;
+  }
+
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .latest {
+    margin-top: -10px;
+    margin-top: 180px;
+  }
+  .latest .container .row .images img {
+    display: none;
+  }
+
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .latest {
+    margin-top: -10px;
+    margin-top: 180px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    height: 350px;
+  }
+  .latest .container .row .images img {
+    display: none;
+  }
+
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}

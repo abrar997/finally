@@ -1,0 +1,181 @@
+/* skill path component */
+.info-mobile {
+  margin-bottom: 120px;
+  background-color: rgba(238, 238, 238, 0.377);
+  box-shadow: inset 1px 1px 10px rgb(212, 211, 211);
+  padding: 20px;
+  height: 520px;
+  padding-bottom: 100px;
+  padding-top: 120px;
+
+}
+.info-mobile .container .row h2 {
+  color: #4785f1;
+  text-transform: capitalize;
+}
+.info-mobile .container .row h6 {
+  color: gray;
+  margin-left: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.info-mobile .container .row .texts h6 {
+  margin-top: 60px;
+}
+.info-mobile .container .row .texts h1 {
+  color: #a31727;
+  text-transform: capitalize;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.info-mobile .container .row .texts .info-text {
+  font-size: 16px;
+  color: rgb(80, 74, 74);
+  margin-left: 10px;
+}
+
+.info-mobile .container .row .texts .lower {
+  margin-left: 10px;
+  font-size: 14px;
+  color: gray;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.info-mobile .container .row .Beginner-info {
+  text-align: center;
+  padding: 20px;
+  margin-left: 100px;
+  box-shadow: inset 1px 1px 15px rgb(212, 211, 211);
+  background-color: white;
+}
+
+.Beginner-info h3 {
+  font-size: 26px;
+  color: rgb(36, 34, 34);
+}
+
+.Beginner-info h3 span:nth-child(2) {
+  color: #db2d41;
+  font-size: 35px;
+}
+.Beginner-info img {
+  width: 50%;
+}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 10px;
+  }
+  .info-mobile {
+    height: 600px;
+  }
+  .info-mobile .container .row .Beginner-info {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 10px;
+  }
+  .info-mobile {
+    height: 600px;
+  }
+  .info-mobile .container .row .Beginner-info {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 13px;
+  }
+  .info-mobile {
+    height: 600px;
+  }
+  .info-mobile .container .row .Beginner-info {
+    /* margin: auto; */
+    padding: 10px;
+    margin-bottom: 100px;
+    width: 60%;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .info-mobile .container .row .texts {
+    margin-left: -20px;
+  }
+  .info-mobile .container .row .texts h1 {
+    font-size: 25px;
+    margin-top: 90px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 13px;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 15px;
+  }
+  .info-mobile .Beginner-info img {
+    width: 60%;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    font-size: 28px;
+    margin-top: 90px;
+  }
+  .info-mobile .Beginner-info img {
+    width: 50%;
+  }
+}

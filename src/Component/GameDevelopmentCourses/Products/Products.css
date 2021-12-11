@@ -1,0 +1,258 @@
+/* web development courses  */
+.Products-game {
+  background-color: white;
+  margin-bottom: 100px;
+}
+.Products-game h2 {
+  color: #0000ff;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+.Products-game .all-courses-top {
+  /* margin-bottom: 70px; */
+  padding-bottom: 10px;
+}
+
+.Products-game .cards-web {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+/* courses card */
+.Products-game .card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.Products-game .card {
+  margin-top: 20px;
+  text-transform: capitalize;
+  box-shadow: inset 1px 1px 16px #eef0f5;
+  background-color: white;
+  width: 349px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+}
+.Products-game .card:hover {
+  box-shadow: 1px 1px 15px rgb(231, 228, 228);
+}
+.Products-game .card img {
+  width: 300px;
+  height: 210px;
+}
+.Products-game .card span {
+  font-size: 12px;
+}
+
+.Products-game .card h5 {
+  color: #0000ff;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.Products-game .card h6 {
+  color: gray;
+}
+
+.Products-game .card-contain {
+  margin-top: 20px;
+}
+
+.Products-game .btn {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 21px;
+  border: 1px solid #4785f1;
+  color: #4785f1;
+  opacity: 0;
+}
+.Products-game .card:hover .btn {
+  opacity: 1;
+}
+.Products-game .btns {
+  margin-left: auto;
+}
+.Products-game .all-courses-top .menu {
+  margin-right: -40px;
+  width: 300px;
+  text-align: center;
+  list-style-type: none;
+}
+/* CheckBox  component*/
+.checkbox-input {
+  margin-left: 100px;
+  padding: 10px;
+  margin-top: 26px;
+}
+.checkbox-input form {
+  margin-left: 100px;
+}
+/* btn sorted by */
+.checkbox-input .dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #db2d41;
+  text-transform: capitalize;
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .Products-game {
+    margin-top: 60px;
+  }
+  .Products-game h1 {
+    font-size: 20px;
+  }
+
+  .Products-game p {
+    font-size: 12px;
+  }
+  .Products-game .card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  .Products-game .card h5 {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .Products-game .contsinWeb {
+    display: none;
+  }
+  .Products-game .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Products-game {
+    margin-top: 60px;
+  }
+  .Products-game h1 {
+    font-size: 20px;
+  }
+
+  .Products-game p {
+    font-size: 12px;
+  }
+  .Products-game .card {
+    height: 180px;
+  }
+  .Products-game .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-game .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-game .contsinWeb {
+    display: none;
+  }
+  .Products-game .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Products-game {
+    margin-top: 60px;
+  }
+  .Products-game h1 {
+    font-size: 29px;
+  }
+
+  .Products-game p {
+    font-size: 12px;
+    display: none;
+  }
+  .Products-game .card {
+    height: 180px;
+    width: 600px;
+  }
+  .Products-game .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-game .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-game .contsinWeb {
+    display: none;
+  }
+  .Products-game .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Products-game {
+    margin-top: 60px;
+  }
+  .Products-game h1 {
+    font-size: 30px;
+  }
+
+  .Products-game p {
+    font-size: 12px;
+  }
+  .Products-game .card {
+    height: 180px;
+    width: 500px;
+  }
+  .Products-game .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-game .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-game .contsinWeb {
+    display: none;
+  }
+  .Products-game .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .Products-game .contsinWeb {
+    display: none;
+  }
+  .Products-game .card img {
+    width: 150px;
+    height: 140px;
+  }
+}

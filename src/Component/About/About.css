@@ -1,0 +1,200 @@
+#about {
+  margin-top: 60px;
+}
+/* left div text */
+#about .container .row .textss {
+  margin-top: 50px;
+}
+
+#about .container .row .textss h1 {
+  color: #0000ff;
+}
+#about .container .row .textss h4 {
+  font-size: 20px;
+}
+#about button {
+  background-color: #0000ff;
+  border: 2px solid #0000ff;
+  color: white;
+  width: 180px;
+  padding: 5px;
+  text-transform: capitalize;
+  margin-left: -10px;
+border-radius: 10px;
+}
+
+#about button:hover {
+  background-color: transparent;
+  color: #0000ff;
+  border: 2px solid #0000ff;
+  font-weight: 600;
+}
+/* right div images */
+#about .container .row .images .img1 {
+  position: relative;
+  margin-left: 20px;
+}
+
+#about .container .row .images .img1 img {
+  width: 50%;
+  box-shadow: 1px 1px 17px rgb(209, 209, 209);
+}
+/* gitl and boy */
+#about .container .row .images .img2 {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: -200px;
+}
+#about .container .row .images .img2 img {
+  width: 70%;
+  box-shadow: 1px 1px 17px rgb(209, 209, 209);
+}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  #about .container .row .textss h4 {
+    font-size: 12px;
+  }
+  #about .container .row .textss h1 {
+    font-size: 20px;
+  }
+  #about .container .row .textss p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #about button {
+    font-size: 12px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    margin: auto;
+    margin-left: 120px;
+  }
+
+  #about .container .row .images {
+     display: none;
+}
+ 
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  #about {
+    margin-top: -40px;
+  }
+
+  #about .container .row .textss h4 {
+    font-size: 12px;
+  }
+  #about .container .row .textss h1 {
+    font-size: 20px;
+  }
+  #about .container .row .textss p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #about button {
+    font-size: 12px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
+  #about .container .row .images {
+    width: 60%;
+    margin-left: 100px;
+  }
+  #about .container .row .images .img2 {
+    margin-left: 120px;
+    margin-top: -30px;
+    width: 50%;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  #about {
+    margin-top: -40px;
+  }
+
+  #about .container .row .textss h4 {
+    font-size: 16px;
+  }
+  #about .container .row .textss h1 {
+    font-size: 25px;
+  }
+  #about .container .row .textss p {
+    font-size: 13px;
+    font-weight: none;
+  }
+
+  #about button {
+    font-size: 12px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
+  #about .container .row .images {
+    width: 40%;
+    margin-left: 100px;
+  }
+  #about .container .row .images .img2 {
+    margin-left: 120px;
+    margin-top: -30px;
+    width: 40%;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  #about {
+    margin-top: -40px;
+  }
+  #about .container .row .textss h4 {
+    font-size: 16px;
+  }
+  #about .container .row .textss h1 {
+    font-size: 25px;
+  }
+  #about .container .row .textss p {
+    font-size: 13px;
+    font-weight: none;
+  }
+  #about .container .row .images {
+    width: 40%;
+    margin-top: 40px;
+  }
+
+  #about .container .row .images .img2 {
+    margin-left: 120px;
+    margin-top: -30px;
+    width: 30%;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  #about .container .row .textss h4 {
+    font-size: 16px;
+  }
+  #about .container .row .textss h1 {
+    font-size: 25px;
+  }
+  #about .container .row .textss p {
+    font-size: 13px;
+    font-weight: none;
+  }
+  #about .container .row .images {
+    width: 40%;
+    margin-top: 40px;
+  }
+
+  #about .container .row .images .img2 {
+    margin-left: 160px;
+    margin-top: -70px;
+    width: 30%;
+  }
+}

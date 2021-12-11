@@ -1,0 +1,320 @@
+.cart-empty {
+  margin-top: 100px;
+}
+.cart-empty .image-empty {
+  margin-left: 540px;
+  width: 600px;
+}
+.cart-empty .btns {
+  margin: auto;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #0000ff;
+  width: 300px;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+}
+.cart {
+  height: 100%;
+  margin-bottom: 290px;
+  margin-top: 80px;
+}
+.cart .container .row .cards {
+  flex-wrap: wrap;
+}
+/*total items */
+.cart .container .row h2 {
+  margin-top: 50px;
+  padding: 10px;
+  margin-bottom: 90px;
+  color: rgb(36, 34, 34);
+  font-size: 32px;
+text-align: center;
+border: 1px solid #eee;
+}
+/* card */
+.cart .container .row .cards .card {
+  height: 180px;
+  display: flex;
+  flex-flow: row;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+  box-shadow: 1px 1px 15px rgb(241, 239, 239);
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+.cart .container .row .cards .card:hover {
+  box-shadow: 1px 1px 16px rgb(230, 227, 227);
+}
+/* card-contain */
+.cart .container .row .cards .card img {
+  height: 160px;
+  width: 250px;
+}
+/* right */
+.cart .container .row .cards .card .textsss {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.cart .container .row .cards .card .textsss h4 {
+  color: #0000ff;
+}
+
+.cart .container .row .cards .card .textsss h6 {
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+}
+/* trash button */
+.cart .container .row .cards .card .textsss .cartbtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  font-size: 24px;
+  color: #db3d50;
+  border: none;
+}
+
+.cart .total {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.cart .total .btn {
+  background-color: #db3d50;
+  color: white;
+  width: 140px;
+  padding: 10px;
+  /* border-radius: 10px; */
+}
+.cart .total .btn:hover {
+  background: #a53845;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .cart {
+    margin-top: -80px;
+  }
+  .cart h2 {
+    font-size: 17px;
+  }
+  .cart h4 {
+    font-size: 17px;
+  }
+  .cart h5 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .cart .container .row .cards .card {
+    height: 130px;
+    width: 400px;
+  }
+  .cart .container .row .cards .card img {
+    height: 80px;
+    width: 60px;
+    margin-top: 15px;
+  }
+  .cart .container .row .cards .card .textsss h4 {
+    font-size: 14px;
+  }
+  .cart .container .row .cards .card .textsss p {
+    font-size: 12px;
+  }
+
+  .cart button {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  .cart-empty .image-empty {
+    width: 290px;
+    margin-left: -0px;
+    margin-left: 100px;
+  }
+  .cart-empty h3 {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .cart {
+    margin-top: -80px;
+  }
+  .cart h2 {
+    font-size: 17px;
+  }
+  .cart h4 {
+    font-size: 17px;
+  }
+  .cart h5 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .cart .container .row .cards .card {
+    height: 180px;
+    width: 400px;
+  }
+  .cart .container .row .cards .card img {
+    height: 80px;
+    width: 60px;
+    margin-top: 15px;
+  }
+  .cart .container .row .cards .card .textsss h4 {
+    font-size: 14px;
+  }
+  .cart .container .row .cards .card .textsss p {
+    font-size: 12px;
+  }
+
+  .cart button {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  .cart-empty .image-empty {
+    width: 330px;
+    margin-left: -0px;
+    margin-left: 190px;
+  }
+  .cart-empty h3 {
+    font-size: 20px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .cart {
+    margin-top: -80px;
+  }
+  .cart h2 {
+    font-size: 17px;
+  }
+  .cart h4 {
+    font-size: 17px;
+  }
+  .cart h5 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .cart .container .row .cards .card {
+    height: 180px;
+    width: 400px;
+  }
+  .cart .container .row .cards .card img {
+    height: 80px;
+    width: 60px;
+    margin-top: 15px;
+  }
+  .cart .container .row .cards .card .textsss h4 {
+    font-size: 14px;
+  }
+  .cart .container .row .cards .card .textsss p {
+    font-size: 12px;
+  }
+
+  .cart button {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  .cart-empty .image-empty {
+    width: 330px;
+    margin-left: -20px;
+    margin-left: 160px;
+  }
+  .cart-empty h3 {
+    font-size: 20px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .cart {
+    margin-top: -80px;
+  }
+  .cart h2 {
+    font-size: 25px;
+  }
+  .cart h4 {
+    font-size: 24px;
+  }
+  .cart h5 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .cart .container .row .cards .card {
+    height: 180px;
+    width: 400px;
+  }
+  .cart .container .row .cards .card img {
+    height: 120px;
+    width: 150px;
+    margin-top: 15px;
+  }
+  .cart .container .row .cards .card .textsss h4 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .cart .container .row .cards .card .textsss p {
+    font-size: 12px;
+  }
+
+  .cart button {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  .cart-empty .image-empty {
+    width: 390px;
+    margin-left: -20px;
+    margin-left: 170px;
+  }
+  .cart-empty h3 {
+    font-size: 20px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .cart .container .row .cards .card .textsss h4 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .cart .container .row .cards .card img {
+    width: 90%;
+  }
+  .cart-empty img {
+    width: 10%;
+    margin-left: -100px;
+  }
+
+  .cart-empty .image-empty {
+    width: 430px;
+    margin-left: -20px;
+    margin-left: 240px;
+  }
+  .cart-empty h3 {
+    font-size: 20px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1200px) and (max-width: 1640px) {
+  .cart-empty .image-empty {
+    width: 520px;
+    margin-left: -20px;
+    margin-left: 340px;
+  }
+  .cart-empty h3 {
+    font-size: 20px;
+  }
+}

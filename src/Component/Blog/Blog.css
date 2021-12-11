@@ -1,0 +1,163 @@
+.Blogs {
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+.Blogs h1 {
+  color: #0000ff;
+}
+.Blogs p {
+  font-size: 18px;
+}
+/* blogs card */
+.Blogs .card {
+  padding: 10px;
+  border: none;
+}
+
+.Blogs .card h6 {
+  margin-top: 10px;
+  color: gray;
+  font-size: 13px;
+}
+
+.Blogs .card h3 {
+  font-size: 18px;
+  text-transform: capitalize;
+  height: 40px;
+}
+
+.Blogs .card p {
+  font-size: 14px;
+}
+
+.Blogs img:hover {
+  filter: brightness(0.7);
+  zoom: 10px;
+}
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .Blogs {
+    margin-top: -10px;
+    margin-top: 40px;
+  }
+  .Blogs .cards {
+    display: flex;
+    flex-flow: column;
+  }
+  .Blogs .card {
+    box-shadow: 1px 1px 16px #eee;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .Blogs h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Blogs p {
+    font-size: 12px;
+  }
+  .Blogs .card h6 {
+    font-size: 8px;
+  }
+  .Blogs .card h3 {
+    font-size: 9px;
+    margin-bottom: -10px;
+  }
+
+  .Blogs .card p {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Blogs {
+    margin-top: -10px;
+    margin-top: 40px;
+  }
+  .Blogs h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Blogs p {
+    font-size: 12px;
+  }
+  .Blogs .card {
+    width: 130px;
+  }
+  .Blogs img {
+    width: 80%;
+  }
+  .Blogs .card h6 {
+    font-size: 8px;
+  }
+  .Blogs .card h3 {
+    font-size: 9px;
+    margin-bottom: -10px;
+  }
+
+  .Blogs .card p {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Blogs {
+    margin-top: -10px;
+    margin-top: 40px;
+  }
+  .Blogs h1 {
+    font-size: 25px;
+  }
+  .Blogs p {
+    font-size: 12px;
+  }
+  .Blogs .card {
+    width: 170px;
+  }
+  .Blogs img {
+    width: 80%;
+  }
+  .Blogs .card h6 {
+    font-size: 10px;
+  }
+  .Blogs .card h3 {
+    font-size: 12px;
+    margin-bottom: -10px;
+  }
+
+  .Blogs .card p {
+    font-size: 11px;
+    margin-top: -10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Blogs h1 {
+    font-size: 28px;
+  }
+  .Blogs p {
+    font-size: 15px;
+  }
+  /* .Blogs .card {
+    width: 170px;
+  } */
+  .Blogs img {
+    width: 80%;
+  }
+  .Blogs .card h6 {
+    font-size: 10px;
+  }
+  .Blogs .card h3 {
+    font-size: 12px;
+    margin-bottom: -10px;
+  }
+
+  .Blogs .card p {
+    font-size: 11px;
+    margin-top: -10px;
+  }
+}

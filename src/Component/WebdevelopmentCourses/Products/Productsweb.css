@@ -1,0 +1,250 @@
+/* web development courses  */
+.Products-web {
+  background-color: white;
+  margin-bottom: 100px;
+}
+.Products-web h2 {
+  color: #0000ff;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+.Products-web .all-courses-top {
+  padding-bottom: 10px;
+}
+/* top div for header and dropdown btn */
+.Products-web .all-courses-top h1 {
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.Products-web .cards-web {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.Products-web .card {
+  margin-top: 20px;
+  text-transform: capitalize;
+  box-shadow: inset 1px 1px 16px #eef0f5;
+  background-color: white;
+  width: 349px;
+  text-align: center;
+  padding: 20px;
+}
+.Products-web .card:hover {
+  box-shadow: 1px 1px 15px rgb(231, 228, 228);
+}
+.Products-web .card img {
+  width: cover;
+  height: 210px;
+}
+.Products-web .card span {
+  font-size: 12px;
+}
+
+.Products-web .card h5 {
+  color: #0000ff;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.Products-web .card h6 {
+  color: gray;
+}
+
+.Products-web .btn {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 21px;
+  border: 1px solid #4785f1;
+  color: #4785f1;
+  opacity: 0;
+}
+.Products-web .card:hover .btn {
+  opacity: 1;
+}
+
+
+.Products-web .card-contain {
+  margin-top: 10px;
+  height: 100px;
+}
+
+.Products-web .all-courses-top .menu {
+  margin-right: -40px;
+  width: 300px;
+  text-align: center;
+  list-style-type: none;
+}
+/* CheckBox  component*/
+.checkbox-inputa-web{
+   margin-left: 60px;
+  box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
+  padding: 10px;
+  margin-top: 26px;
+  width: 320px;
+}
+
+/* btn sorted by */
+.checkbox-inputa-web .dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #db2d41;
+  text-transform: capitalize;
+  text-align: center;
+}
+.Products-web .btns {
+  margin-left: auto;
+}
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .Products-web {
+    margin-top: 60px;
+  }
+  .Products-web h1 {
+    font-size: 20px;
+  }
+
+  .Products-web p {
+    font-size: 12px;
+  }
+  .Products-web .card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  .Products-web .card h5 {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .Products-web .contsinWeb {
+    display: none;
+  }
+  .Products-web .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Products-web {
+    margin-top: 60px;
+  }
+  .Products-web h1 {
+    font-size: 20px;
+  }
+
+  .Products-web p {
+    font-size: 12px;
+  }
+  .Products-web .card {
+    height: 180px;
+  }
+  .Products-web .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-web .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-web .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Products-web {
+    margin-top: 60px;
+  }
+  .Products-web h1 {
+    font-size: 29px;
+  }
+
+  .Products-web p {
+    font-size: 12px;
+    display: none;
+  }
+  .Products-web .card {
+    height: 180px;
+    width: 600px;
+  }
+  .Products-web .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-web .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-web .contsinWeb {
+    display: none;
+  }
+  .Products-web .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Products-web {
+    margin-top: 60px;
+  }
+  .Products-web h1 {
+    font-size: 30px;
+  }
+
+  .Products-web p {
+    font-size: 12px;
+  }
+  .Products-web .card {
+    height: 180px;
+    width: 500px;
+  }
+  .Products-web .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-web .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-web .contsinWeb {
+    display: none;
+  }
+  .Products-web .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .Products-web .contsinWeb {
+    display: none;
+  }
+  .Products-web .card img {
+    width: 150px;
+    height: 140px;
+    /* margin-top: 20px; */
+  }
+}

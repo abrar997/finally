@@ -1,0 +1,211 @@
+/* services section */
+.services {
+  padding-top: 120px;
+  background-color: rgba(238, 238, 238, 0.377);
+  height: 670px;
+}
+.services h4 {
+  color: black;
+  font-weight: 600;
+}
+.services h1 {
+  color: #0000ff;
+  margin-bottom: 50px;
+}
+
+/* image in section */
+.serva {
+  background: url("./ServicesImage/back1.png") no-repeat;
+  background-size: 100%;
+}
+/* card */
+.services .container .card {
+  width: 260px;
+  height: 330px;
+  background-color: white;
+  margin-left: 10px;
+  padding: 20px;
+  text-align: center;
+  color: #4785f1;
+  box-shadow: inset 1px 1px 10px gray;
+}
+.services .container .card:hover {
+  box-shadow: 1px 1px 17px rgb(223, 223, 223);
+}
+/* card img */
+.services .container .row .card img {
+  width: 70px;
+  margin: auto;
+  margin-top: -1px;
+  margin-top: 30px;
+}
+/* card content */
+.services .container .card h3 {
+  font-size: 25px;
+  color: black;
+}
+
+.services .container .card p {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  
+ .services{margin-bottom: 420px;}
+  .services h4 {
+    font-size: 14px;
+    margin-top: -30px;
+  }
+  .services h1 {
+    font-size: 18px;
+  } 
+  .services .container .row .cards {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+  }
+  .services .container .row .card {
+    height: 270px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .services .container .row .card img {
+    width: 30%;
+  }
+  .services .container .card h3 {
+    font-size: 16px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .services {
+    margin-left: -30px;
+    height: 520px;
+  }
+  .services h4 {
+    font-size: 14px;
+  }
+  .services h1 {
+    font-size: 22px;
+  }
+  .services .container .row .card {
+    height: 270px;
+    width: 170px;
+    margin-left: -20px;
+    margin-left: 5px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
+  }
+  .services .container .card h3 {
+    font-size: 16px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .services {
+    margin-left: -40px;
+    height: 470px;
+  }
+  .services h4 {
+    font-size: 14px;
+  }
+  .services h1 {
+    font-size: 25px;
+  }
+  .services .container .row .card {
+    height: 270px;
+    width: 210px;
+    margin-left: -20px;
+    margin-left: 15px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
+  }
+  .services .container .card h3 {
+    font-size: 16px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .services {
+    height: 500px;
+  }
+  .services .serva {
+    width: 200px;
+    margin-left: -10px;
+  }
+  .services h4 {
+    font-size: 14px;
+  }
+  .services h1 {
+    font-size: 25px;
+  }
+  .services .container .row .card {
+    height: 270px;
+    width: 230px;
+    margin-left: -20px;
+    margin-left: 15px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
+  }
+  .services .container .card h3 {
+    font-size: 19px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .services {
+    height: 500px;
+  }
+  .services .serva {
+    width: 200px;
+    margin-left: -10px;
+  }
+  .services h4 {
+    font-size: 20px;
+  }
+  .services h1 {
+    font-size: 30px;
+  }
+  .services .container .row .card {
+    height: 270px;
+    width: 280px;
+    margin-left: -20px;
+    margin-left: 15px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
+  }
+  .services .container .card h3 {
+    font-size: 19px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}

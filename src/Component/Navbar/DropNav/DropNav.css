@@ -1,0 +1,28 @@
+/* nav drop fron faBars icon in right side */
+.dropnav {
+  overflow-y: hidden;
+}
+.navbardrop.display {
+  display: none;
+}
+.dropnav .navbar {
+  background-color: #eee;
+  margin-bottom: 90px;
+  position: fixed;
+  z-index: 5;
+  top: 90px;
+  height: 60px;
+}
+.drop .collapse .navbar-nav {
+  margin-left: 400px;
+  font-size: 22px;
+  text-transform: capitalize;
+  padding: 10px;
+
+}
+.drop .navbar-nav .nav-item .nav-link{  color: #0000ff;
+}
+.drop .navbar-nav .nav-item .nav-link:hover {
+  color: #3939c9;
+}
+

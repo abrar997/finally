@@ -1,0 +1,247 @@
+/* web development courses  */
+.Products-mobile {
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.Products-mobile .all-courses-top {
+  padding-bottom: 10px;
+}
+/* top div for header and dropdown btn */
+.Products-mobile .all-courses-top h1 {
+  color: rgba(0, 0, 0, 0.726);
+}
+/* courses card */
+
+.Products-mobile .cards-web {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.Products-mobile .card {
+  margin-top: 20px;
+  text-transform: capitalize;
+  box-shadow: inset 1px 1px 16px #eef0f5;
+  background-color: white;
+  width: 349px;
+  text-align: center;
+  padding: 10px;
+}
+.Products-mobile .btn {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 21px;
+  border: 1px solid #4785f1;
+  color: #4785f1;
+  opacity: 0;
+}
+.Products-mobile .card:hover .btn {
+  opacity: 1;
+}
+.Products-mobile .card:hover {
+box-shadow: 1px 1px 16px rgb(219, 219, 219);
+}
+
+.Products-mobile .card img {
+  width: cover;
+  height: 210px;
+}
+.Products-mobile .card span {
+  font-size: 12px;
+}
+
+.Products-mobile .card h5 {
+  color: #0000ff;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.Products-mobile .card h6 {
+  color: gray;
+}
+
+.Products-mobile .card-contain {
+  margin-top: 10px;
+  height: 100px;
+}
+
+.Products-mobile .btns {
+  margin-left: auto;
+}
+.Products-mobile .all-courses-top .menu {
+  margin-right: -40px;
+  width: 300px;
+  text-align: center;
+  list-style-type: none;
+}
+/* CheckBox  component*/
+.checkbox-input-mobile{
+  margin-left: 60px;
+  box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
+  padding: 10px;
+  margin-top: 26px;
+  width: 320px;
+}
+/* btn sorted by */
+.checkbox-input-mobile .dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #db2d41;
+  text-transform: capitalize;
+  text-align: center;
+
+}
+
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .Products-mobile {
+    margin-top: 60px;
+  }
+  .Products-mobile h1 {
+    font-size: 20px;
+  }
+
+  .Products-mobile p {
+    font-size: 12px;
+  }
+  .Products-mobile .card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  .Products-mobile .card h5 {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .Products-mobile .contsinWeb {
+    display: none;
+  }
+  .Products-mobile .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Products-mobile {
+    margin-top: 60px;
+  }
+  .Products-mobile h1 {
+    font-size: 20px;
+  }
+
+  .Products-mobile p {
+    font-size: 12px;
+  }
+  .Products-mobile .card {
+    height: 180px;
+  }
+  .Products-mobile .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-mobile .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-mobile .contsinWeb {
+    display: none;
+  }
+  .Products-mobile .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Products-mobile {
+    margin-top: 60px;
+  }
+  .Products-mobile h1 {
+    font-size: 29px;
+  }
+
+  .Products-mobile p {
+    font-size: 12px;
+  }
+  .Products-mobile .card {
+    height: 180px;
+    width: 600px;
+  }
+  .Products-mobile .card img {
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
+  }
+
+  .Products-mobile .card h5 {
+    font-size: 13px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-mobile .contsinWeb {
+    display: none;
+  }
+  .Products-mobile .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Products-mobile {
+    margin-top: 60px;
+  }
+  .Products-mobile h1 {
+    font-size: 30px;
+  }
+
+  .Products-mobile p {
+    font-size: 12px;
+  }
+  .Products-mobile .card {
+    height: 200px;
+    width: 500px;
+  }
+  .Products-mobile .card img {
+    width: 150px;
+    height: 120px;
+    margin-top: 20px;
+  }
+
+  .Products-mobile .card h5 {
+    font-size: 14px;
+    /* margin-top: 5px; */
+  }
+
+  .Products-mobile .contsinWeb {
+    display: none;
+  }
+  .Products-mobile .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .Products-mobile .contsinWeb {
+    left: 540px;
+  }
+}

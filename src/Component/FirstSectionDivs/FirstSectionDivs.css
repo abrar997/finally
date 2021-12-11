@@ -1,0 +1,52 @@
+.boyy {
+  height: 1300px;
+}
+
+/* blue circle */
+.FirstSectionDivs .container .row .imageAlls {
+  background-color: #4785f1;
+  background-size: 40%;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 810px;
+  z-index: 200;
+}
+
+/* text inside circle */
+.FirstSectionDivs .imageAlls h1 {
+  z-index: 100;
+  text-align: center;
+  margin-top: 90px;
+  text-transform: capitalize;
+}
+.FirstSectionDivs .imageAlls h3 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.FirstSectionDivs .imageAlls button {
+  margin: auto;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  width: 260px;
+  padding: 10px;
+  margin-left: 55px;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* for man */
+.FirstSectionDivs .imageAlls .images {
+  margin-top: -20px;
+  margin-right: -400px;
+}
+.FirstSectionDivs .imageAlls .images img {
+  margin-top: -180px;
+  width: 100%;
+}

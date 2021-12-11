@@ -1,0 +1,161 @@
+/* cousres */
+.Courses {
+  height: 1050px;
+  background-color: rgba(238, 238, 238, 0.377);
+  padding-top: 60px;
+}
+
+.Courses h4 {
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.Courses h1 {
+  color:  #0000ff;
+}
+.Courses .buttons {
+  border-bottom: 1px solid gray;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.Courses button {
+  background: transparent;
+  border: none;
+  text-transform: capitalize;
+}
+
+.Courses .buttons button:hover {
+  color:  #0000ff;
+}
+.swiper .Courses .mySwiper {
+  width: 100%;
+  margin-top: -60px;
+}
+/* card in course */
+.Courses .mySwiper .card {
+  background-color: white;
+}
+.Courses .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+height: 500px;
+}
+
+.Courses .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+.Courses .top .card {
+  width: 400px;
+  height: 380px;
+}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .Courses {
+    padding-top: 0px;
+    height: 380px;
+    padding-bottom: 30px;
+    margin-bottom:290px;
+  }
+  .Courses h4 {
+    font-size: 14px;
+  }
+  .Courses h1 {
+    font-size: 22px;
+  }
+  .Courses h5 {
+    font-size: 12px;
+  }
+  .Courses button {
+    font-size: 10px;
+  }
+  .Courses .buttons {
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .Courses p {
+    font-size: 12px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Courses {
+    margin-top: 40px;
+    height: 730px;
+    padding-bottom: 30px;
+  }
+  .Courses h4 {
+    font-size: 14px;
+  }
+  .Courses h1 {
+    font-size: 22px;
+  }
+  .Courses h5 {
+    font-size: 12px;
+  }
+  .Courses button {
+    font-size: 10px;
+  }
+  .Courses .buttons {
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .Courses p {
+    font-size: 12px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Courses {
+    margin-top: 40px;
+    height: 730px;
+    padding-bottom: 30px;
+  }
+  .Courses h4 {
+    font-size: 19px;
+  }
+  .Courses h1 {
+    font-size: 25px;
+  }
+  .Courses h5 {
+    font-size: 12px;
+  }
+  .Courses button {
+    font-size: 15px;
+  }
+  .Courses .buttons {
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .Courses p {
+    font-size: 12px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Courses h4 {
+    font-size: 22px;
+  }
+  .Courses h1 {
+    font-size: 28px;
+  }
+  .Courses h5 {
+    font-size: 12px;
+  }
+}
