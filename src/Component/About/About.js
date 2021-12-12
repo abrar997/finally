@@ -20,7 +20,7 @@ export class About extends Component {
   
   handlechange = () => {
       this.setState({
-        h1: "History of Company",
+        h1: "History of academy",
         describe:
           " Teaching Company is the hshh kwing developer and marketer of engaging, premium-quality college level courses for lifelong learners to enjoy via audio or video streaming, mobile apps, downloads, or discs delivered to the home. Under The Great Courses brand, the company is ranked #246 on the Internet Retailer 500.",
       });

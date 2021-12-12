@@ -18,10 +18,10 @@ const style = {
   textAlign: "center",
 };
 const buttonStyle = {
-  border: "1px solid  #0000ff",
+  border: "1px solid  #4785f1",
   width: "200px",
   textAlign: "center",
-  backgroundColor: "#0000ff",
+  backgroundColor: "#4785f1",
   color: "white",
   margin: "auto",
   textTransform: "capitalize",
@@ -36,7 +36,7 @@ const ModalBox = () => {
     <div>
       <Button
         onClick={handleOpen}
-        sx={{  fontSize: 24,width:"160px", color: "#0000ff",textTransform:"lowercase" }}
+        sx={{  fontSize: 24,width:"160px", color: "#4785f1",textTransform:"lowercase" }}
       >
         Start now
       </Button>
@@ -58,20 +58,21 @@ const ModalBox = () => {
             >
               Web development
             </Link>
-            <Link
-              style={buttonStyle}
-              className="btn ml-2 mr-2 mt-2 mb-4"
-              to="/GameDevelopmentCourses"
-            >
-              Game development
-            </Link>
-            <Link
+           <Link
               style={buttonStyle}
               className="btn ml-2 mr-2 mt-2 mb-4"
               to="/MobileDevelopmentCourses"
             >
               Mobile development
             </Link>
+             <Link
+              style={buttonStyle}
+              className="btn ml-2 mr-2 mt-2 mb-4"
+              to="/GameDevelopmentCourses"
+            >
+              Game development
+            </Link>
+            
             <Link
               style={buttonStyle}
               className="btn ml-2 mr-2 mt-2 mb-4"
