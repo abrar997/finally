@@ -25,11 +25,12 @@ const Courses = () => {
 
   return (
     <div id="courses">
-      <div >
+      <div>
         <div className="Courses">
           <div className="container">
-            <div data-aos="fade-right"
-              > <h4>Courses... </h4>
+            <div data-aos="fade-right">
+              {" "}
+              <h4>Courses... </h4>
               <h1>A broad selection of courses</h1>
               <h5>
                 Choose from 10,000 online video courses with new additions
@@ -43,7 +44,9 @@ const Courses = () => {
               <button onClick={handleClick3}>Game development</button>
               <button onClick={handleClick1}>data science</button>
             </div>
-            <div className="conatin">{div} </div>
+            <div className="conatin" data-aos="zoom-in">
+              {div}{" "}
+            </div>
           </div>
         </div>
       </div>

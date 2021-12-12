@@ -8,6 +8,7 @@
   /* clip-path: polygon(0 90%, 100% 0, 100% 94%, 0% 100%); */
   /* -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%); */
   height: 800px;
+  margin-top: 40px;
 }
 .NewSection img {
   margin-left: -280px;
@@ -18,17 +19,20 @@
 }
 
 .NewSection .btn {
-  width: 230px;
+  width: 200px;
   border: 1px solid #4785f1;
   border-radius: 10px;
-  font-size: 20px;
-  color: white;
   text-transform: capitalize;
   margin-top: 20px;
   background-color: #4785f1;
-  color: white;
+  height: 50px;
 }
-
+.NewSection .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: white;
+  font-size: 19px !important;
+  text-transform: lowercase !important;
+  margin: auto;
+}
 /* 0px to 552px  phone size*/
 @media all and (min-width: 0px) and (max-width: 575.98px) {
   .NewSection {
@@ -56,7 +60,7 @@
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
-.NewSection {
+  .NewSection {
     height: 590px;
     margin-top: 80px;
   }
@@ -79,7 +83,7 @@
   }
 }
 @media all and (min-width: 769px) and (max-width: 992px) {
-.NewSection {
+  .NewSection {
     height: 590px;
     margin-top: 80px;
   }
@@ -102,7 +106,7 @@
   }
 }
 @media all and (min-width: 992px) and (max-width: 1200px) {
-.NewSection {
+  .NewSection {
     height: 390px;
     margin-top: 80px;
   }
@@ -123,5 +127,4 @@
     font-size: 13px;
     width: 90px;
   }
-
 }

@@ -16,7 +16,7 @@ const Services = () => {
     },
     {
       img: img2,
-      h3: "Earn A Certificates",
+      h3: "be instructore",
       p: "  Far far away, behind the word mountains, far from thecountries Vokalia and Consonantia, there live the blindtexts.",
     },
     {
