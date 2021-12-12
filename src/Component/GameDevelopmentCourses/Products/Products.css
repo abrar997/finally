@@ -108,25 +108,24 @@
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
-  .Products-game {
+ .Products-game {
     margin-top: 60px;
   }
   .Products-game h1 {
     font-size: 20px;
   }
-
+  .Products-game .checkbox-input {
+    display: none;
+  }
   .Products-game p {
     font-size: 12px;
   }
-  .Products-game .card img {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
+  .Products-game .card {
+    text-align: center;
   }
 
   .Products-game .card h5 {
     font-size: 13px;
-    margin-top: 15px;
   }
 
   .Products-game .contsinWeb {

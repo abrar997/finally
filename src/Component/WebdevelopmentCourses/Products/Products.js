@@ -14,6 +14,7 @@ import "./Productsweb.css";
 
 // cart
 import { useCart } from "react-use-cart";
+import { Link } from "react-router-dom";
 const Products = () => {
   const { addItem } = useCart();
   const [dataList, setDataList] = useState(data);
@@ -175,6 +176,7 @@ const Products = () => {
                       <FontAwesomeIcon icon={faShoppingBag} />
                     </button>
                   </div>
+                 
                 </div>
               );
             })}

@@ -102,6 +102,38 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
+    .Products-mobile {
+    margin-top: 60px;
+  }
+  .Products-mobile h1 {
+    font-size: 20px;
+  }
+
+  .Products-mobile p {
+    font-size: 12px;
+  }
+  .checkbox-input-mobile {
+    display: none;
+  }
+  .Products-mobile .card {
+    text-align: center;
+  }
+  .Products-mobile .card h5 {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .Products-mobile .contsinWeb {
+    display: none;
+  }
+  .Products-mobile .btns {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
   .Products-mobile {
     margin-top: 60px;
   }
@@ -112,15 +144,18 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
   .Products-mobile p {
     font-size: 12px;
   }
+  .Products-mobile .card {
+    height: 180px;
+  }
   .Products-mobile .card img {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+    /* margin-top: 20px; */
   }
 
   .Products-mobile .card h5 {
     font-size: 13px;
-    margin-top: 15px;
+    /* margin-top: 5px; */
   }
 
   .Products-mobile .contsinWeb {

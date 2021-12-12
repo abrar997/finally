@@ -3,7 +3,8 @@
   padding-top: 120px;
   background-color: rgba(238, 238, 238, 0.377);
   height: 670px;
-}
+ border-bottom: 4px solid #e8e8ec;
+  border-bottom-left-radius: 14px;}
 .services h4 {
   color: black;
   font-weight: 600;

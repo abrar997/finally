@@ -35,7 +35,7 @@ const App = () => {
 
   
   return (
-    <CartProvider> 
+    <CartProvider>
       <Router>
         <Navbar user={user} />
         <Switch>
