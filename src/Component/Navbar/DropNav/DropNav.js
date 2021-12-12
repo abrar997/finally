@@ -57,8 +57,8 @@ const DropNav = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/Login" className="nav-link">
-                        Login
+                      <Link to="/Team" className="nav-link">
+                        instructors
                       </Link>
                     </li>
                     <li className="nav-item">
