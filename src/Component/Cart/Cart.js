@@ -27,7 +27,7 @@ const Cart = ({ user }) => {
 
   if (isEmpty) {
     return (
-      <div className="cart-empty">
+      <div className="cart-empty" data-aos="zoom-in">
         <h3
           style={{
             textAlign: "center",
@@ -58,6 +58,9 @@ const Cart = ({ user }) => {
                 <div
                   key={item.id}
                   className="card col-lg-4 col-md-8 col-sm-8 p-10"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
                 >
                   <div className="imagesCart col-sm-4 col-md-4">
                     <img src={item.img} />
@@ -82,11 +85,14 @@ const Cart = ({ user }) => {
           </div>
 
           <div className="total">
-          <div> <h4>Total price : {cartTotal} $ </h4>
-            <h5 style={{ color: "gray" }}>
-              {/* Cart ({totalUniqueItems}) */}
-              total Items:({totalItems})
-            </h5></div> 
+            <div>
+              {" "}
+              <h4>Total price : {cartTotal} $ </h4>
+              <h5 style={{ color: "gray" }}>
+                {/* Cart ({totalUniqueItems}) */}
+                total Items:({totalItems})
+              </h5>
+            </div>
             <button className="btn " onClick={() => emptyCart()}>
               empty cart
             </button>

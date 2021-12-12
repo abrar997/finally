@@ -31,6 +31,13 @@
   margin-top: -1px;
   margin-top: 12px;
 }
+.navbar.colorChange span {
+  margin-top: -10px;
+}
+
+.navbar.colorChange .firebase {
+  margin-top: -3px;
+}
 
 /* code/Mu. */
 .navbar .navbar-brand {

@@ -50,7 +50,7 @@ const Blog = () => {
               setting up your own viewing station.
             </p>
           </div>
-          <div className="cards d-flex">
+          <div className="cards d-flex" data-aos="zoom-in">
             {blog.map((blog, inda) => {
               return (
                 <div

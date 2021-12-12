@@ -25,6 +25,7 @@ const user = auth.currentUser;
 
 // main
 const App = () => {
+  // if user ign up to web , browser will recignize him and  already  open in cart poge 
   const [user, setUser] = useState(null);
   useEffect((user) => {
     auth.onAuthStateChanged((user) => {
@@ -34,7 +35,7 @@ const App = () => {
 
   
   return (
-    <CartProvider>
+    <CartProvider> 
       <Router>
         <Navbar user={user} />
         <Switch>

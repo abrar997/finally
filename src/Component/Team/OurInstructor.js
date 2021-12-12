@@ -33,7 +33,7 @@ const OurInstructor = () => {
     <div className="instructorteam">
       <div className="container">
         <div className="row">
-          <h4>Meet our instructore who begin from zero as you  ...</h4>
+          <h4>Meet our instructore who begin from zero as you ...</h4>
           <h1>Certified Instructor </h1>
           <div className="cards">
             <Swiper
@@ -42,12 +42,12 @@ const OurInstructor = () => {
               slidesPerGroup={3}
               loop={true}
               loopFillGroupWithBlank={true}
-                autoplay={{
-                  delay: 3500,
-                  disableOnInteraction: false,
-                }
-              }
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
               className="mySwiper"
+              data-aos="zoom-in"
             >
               {team.map((items, indla) => {
                 return (

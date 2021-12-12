@@ -10,7 +10,7 @@ const First = () => {
       <div className="firstbutton">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 textfirst">
+            <div className="col-lg-4 textfirst" data-aos="fade-right">
               <h4>plan your goals </h4>
               <p>
                 You start with your passion and knowledge. Then choose a
@@ -20,7 +20,7 @@ const First = () => {
               </p>
               {/* <link to="/second"> next </link>  */}
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-left">
               <img src={img1} />{" "}
             </div>
           </div>

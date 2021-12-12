@@ -10,7 +10,7 @@ const Second = () => {
     <div className="firstbutton">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 textfirst">
+          <div className="col-lg-6 textfirst" data-aos="fade-right">
             <h4>Record your video </h4>
             <p>
               Use basic tools like a smartphone or a DSLR camera. Add a good
@@ -19,8 +19,7 @@ const Second = () => {
               hours or more of video for a paid course.
             </p>
           </div>
-          <div className="col-lg-6">
-            
+          <div className="col-lg-6" data-aos="fade-left">
             <img src={img2} />
           </div>
         </div>

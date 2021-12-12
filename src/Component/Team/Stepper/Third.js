@@ -10,8 +10,8 @@ const Third = () => {
     <div className="firstbutton">
       <div className="container">
         <div className="row ">
-          <div className="d-flex ml-4 m-auto" >
-            <div className="col-lg-4 textfirst">
+          <div className="d-flex ml-4 m-auto">
+            <div className="col-lg-4 textfirst" data-aos="fade-right">
               <h4>launch your course </h4>
               <p>
                 Gather your first ratings and reviews by promoting your course
@@ -20,7 +20,7 @@ const Third = () => {
                 from each paid enrollment.
               </p>
             </div>{" "}
-            <div className="col-lg-4 img-third">
+            <div className="col-lg-4 img-third" data-aos="fade-left">
               <img src={img3} />
             </div>
           </div>
