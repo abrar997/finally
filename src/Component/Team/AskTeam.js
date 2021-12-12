@@ -41,26 +41,12 @@ const AskTeam = () => {
 
   };
 
-  let header = "";
-  if (ask.name) {
-    header = (
-      <h4 style={{ padding: "17px",color:" rgb(240, 240, 240)" }}>
-       Hello {ask.name},thank you for your trust, we will answer your question
-        during 48h
-      </h4>
-    );
-  } else {
-    header = "";
-  }
   
    const {name, instruct, question} = ask;
 
   return (
-    <div className="askTeam" >
-      <div className="textHeader">
-        {/* hidden text appear when you write your name in fyour name input */}
-        {header}
-      </div>
+    <div className="askTeam">
+
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4">
