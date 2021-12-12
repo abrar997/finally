@@ -482,10 +482,10 @@ width: cover;}
     font-size: 10px;
   }
   .askTeam {
-    height: 600px;
+    height: 650px;
     margin-top: 100px;
     margin-bottom: 100px;
-  }
+  padding-top: 40px;}
   .askTeam h1 {
     font-size: 20px;
     margin-top: -100px;

@@ -57,16 +57,15 @@
 
 @media all and (min-width: 576px) and (max-width: 768px) {
 .NewSection {
-    height: 390px;
+    height: 590px;
     margin-top: 80px;
   }
   .NewSection img {
     width: 60%;
     margin: auto;
-    margin-top: 60px;
   }
   .NewSection .text-newswection {
-    margin-top: -240px;
+    margin-top: -280px;
   }
   .NewSection h1 {
     font-size: 18px;
@@ -81,7 +80,7 @@
 }
 @media all and (min-width: 769px) and (max-width: 992px) {
 .NewSection {
-    height: 390px;
+    height: 590px;
     margin-top: 80px;
   }
   .NewSection img {
@@ -89,7 +88,7 @@
     margin: auto;
   }
   .NewSection .text-newswection {
-    margin-top: -280px;
+    margin-top: -340px;
   }
   .NewSection h1 {
     font-size: 18px;
