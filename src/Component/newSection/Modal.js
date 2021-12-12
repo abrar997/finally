@@ -24,7 +24,7 @@ const Modals = () => {
   const [handle, setHandle] = React.useState(<ModalBox />);
   return (
     <div>
-      <Button onClick={handleOpen}>start now </Button>
+      <Button onClick={handleOpen} style={{color:"white"}}>start now </Button>
       <Modal
         open={open}
         onClose={handleClose}
