@@ -63,16 +63,20 @@
   list-style: none;
   margin-top: 23px;
   height: 45px;
-  border: 2px solid #4785f1;
+  border: 1px solid #4785f1;
   background: #4785f1;
-  width: 160px;
+  width: 160px;height: 44px;
   font-size: 18px;
   padding: 9px;
   margin-left: 90px;
   color: white;
   border-radius: 10px;
 }
-
+.sub-menu-parent:hover {
+  background-color: #0000ff;
+  border: 1px solid #0000ff;
+  transition: 0.8s;
+}
 .sub-menu {
   visibility: hidden; /* hides sub-menu */
   opacity: 0;
@@ -177,7 +181,6 @@
 .menue {
   cursor: pointer;
 }
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* 0px to 552px  phone size*/
 @media all and (min-width: 0px) and (max-width: 575.98px) {

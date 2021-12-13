@@ -4,15 +4,17 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { Link } from "react-router-dom";
-import ModalBox from "./BoxModal";
+import "./NewSection.css";
 const style = {
   position: "absolute",
-  top: "50%",
-  left: "50%",
+  top: "75%",
+  left: "70%",
   transform: "translate(-50%, -50%)",
+  padding: "10px",
   width: 400,
-  bgcolor: "#eee",
+  background: "#eee",
   border: "1px solid #eee",
+  borderRadius: "10px",
   boxShadow: 24,
   p: 4,
 };
@@ -21,18 +23,29 @@ const Modals = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [handle, setHandle] = React.useState(<ModalBox />);
   return (
-    <div>
-      <Button onClick={handleOpen} style={{color:"white"}}>start now </Button>
+    <div className=" d-flex">
+      <Button onClick={handleOpen} style={{ color: "white" }}>
+        start now
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style} className="d-flex">
-          <Button>{handle} </Button>
+        <Box sx={style} className="d-flex buttons-modal">
+          <>
+            <div class="dropdown">
+              <button class="dropbtn">Courses</button>
+              <div class="dropdown-content">
+                <Link to="/">web debvelopment</Link>
+                <Link to="#">Mobile development</Link>
+                <Link to="#">game development</Link>
+                <Link to="#">data science</Link>
+              </div>
+            </div>
+          </>
 
           <Typography
             id="modal-modal-description"

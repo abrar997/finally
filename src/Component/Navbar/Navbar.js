@@ -54,10 +54,7 @@ const Navbar = ({ user }) => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span
-                  className="navbar-toggler-icon"
-             
-                >
+                <span className="navbar-toggler-icon">
                   <FontAwesomeIcon icon={faBars} />
                 </span>
               </button>
@@ -116,7 +113,7 @@ const Navbar = ({ user }) => {
                       className="collapse navbar-collapse d-flex  nav-item firebase items"
                       id="navbarSupportedContent"
                     >
-                      <NavLink to="/Login" activeClassName="ico  ml-3">
+                      <NavLink to="/Login" activeClassName="icon  ml-3">
                         <button style={categs} className="icon-login">
                           Log in{" "}
                         </button>
@@ -158,8 +155,8 @@ const Navbar = ({ user }) => {
                           </NavLink>
                           <>
                             <li
-                              className="menue icon-nv-display"
-                              style={{ transition: "all .6s ease-in-out" }}
+                              className="menue tags icon-nv-display"
+                              gloss=" click here ..."
                             >
                               <FontAwesomeIcon
                                 icon={faBars}

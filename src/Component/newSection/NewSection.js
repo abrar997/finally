@@ -1,6 +1,8 @@
 import React from "react";
 import "./NewSection.css";
 import Modals from "./Modal";
+
+
 const NewSection = () => {
   return (
     <div className="NewSection">
@@ -12,7 +14,7 @@ const NewSection = () => {
           <div className="col-lg-6 text-newswection" data-aos="fade-left">
             <div className="wrapper">
               {" "}
-              <h1 className="typing-demo">code<span>/</span>Mu. <span>a</span>cadem<span>y</span> </h1>
+              <h1 className="typing-demo">code<span>/</span>Mu. <span>a</span>cadem<span>y</span>...</h1>
             </div>
             <br />
             <h6>
