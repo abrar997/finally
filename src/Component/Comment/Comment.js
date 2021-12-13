@@ -45,12 +45,12 @@ class Comment extends Component {
 
   render() {
     return (
-      <div className="comment">
+      <div className="comment" >
         <div className="container">
           <h1>Reviews </h1>
           <h3>add your reviews and encourage us to imporve our services </h3>
           <Dataconstant />
-          <div className="d-flex">
+          <div className="d-flex" data-aos="zoom-in">
             <div>
               {this.state.todos.map((todo, index) => (
                 // trans data to other component by props

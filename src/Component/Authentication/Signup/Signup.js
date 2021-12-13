@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from "react";
+import React, { useCallback, useRef, useState } from "react";
 // style
 import "./Signup.css";
 // icons
@@ -15,6 +15,7 @@ const auth = app.auth(); // use app to connect login and signup data with fireab
 const Signup = (props) => {
   const auth = app.auth();
   const { name, email, password } = useRef(null);
+
 // sign up with email
   const SignWithEmail = useCallback(async (event) => {
     event.preventDefault();
@@ -23,10 +24,12 @@ const Signup = (props) => {
       .createUserWithEmailAndPassword(email.value, password.value)
 
       .then((res) => {
-        return "Sign up is sucssesful";
+        return alert(
+          ` Sign up is sucssesful  welcome  in our academy`
+        );
       })
       .catch((error) => {
-        alert(error);
+        alert('something wrong ,back after few seconds');
       });
   }, []);
 
@@ -59,6 +62,7 @@ const Signup = (props) => {
                       name="name"
                       placeholder="full name.."
                       ref={name}
+                      required
                     />
                   </label>
                 </div>
