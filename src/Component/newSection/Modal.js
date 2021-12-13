@@ -25,7 +25,7 @@ const Modals = () => {
   const handleClose = () => setOpen(false);
   return (
     <div className=" d-flex">
-      <Button onClick={handleOpen} style={{ color: "white" }}>
+      <Button onClick={handleOpen} style={{ color: "white" ,textAlign:"center"}}>
         start now
       </Button>
       <Modal
