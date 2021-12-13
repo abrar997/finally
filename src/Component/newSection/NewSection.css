@@ -127,6 +127,9 @@
   display: block;
 }
 
+.modals .btn{width:100px;
+text-align: center;}
+
 /*------------------- */
 
 /* 0px to 552px  phone size*/

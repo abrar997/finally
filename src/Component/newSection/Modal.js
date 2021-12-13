@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import "./NewSection.css";
 const style = {
   position: "absolute",
-  top: "75%",
+  top: "70%",
   left: "70%",
   transform: "translate(-50%, -50%)",
   padding: "10px",
@@ -24,8 +24,12 @@ const Modals = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
-    <div>
-      <Button onClick={handleOpen} style={{ color: "white" ,textAlign:"center"}}>
+    <div className="modals">
+      <Button
+        onClick={handleOpen}
+        style={{ color: "white", textAlign: "center" }}
+        
+      >
         start now
       </Button>
       <Modal
@@ -39,10 +43,10 @@ const Modals = () => {
             <div class="dropdown">
               <button class="dropbtn">Courses</button>
               <div class="dropdown-content">
-                <Link to="/">web debvelopment</Link>
-                <Link to="#">Mobile development</Link>
-                <Link to="#">game development</Link>
-                <Link to="#">data science</Link>
+                <Link to="/WebdevelopmentCourses">web debvelopment</Link>
+                <Link to="/MobileDevelopmentCourses">Mobile development</Link>
+                <Link to="/GameDevelopmentCourses">game development</Link>
+                <Link to="/DataScienceCourses">data science</Link>
               </div>
             </div>
           </>
