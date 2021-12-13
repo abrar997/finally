@@ -32,12 +32,16 @@ const Cart = ({ user }) => {
           style={{
             textAlign: "center",
             backgroundColor: " #caddff",
-            color: "black",
+            color: "rgba(0,0,0,1)",
             padding: "10px",
+            fontSize: "19px",
+        
           }}
         >
           Your cart is empty back and add what u need ....
-          <ModalBox />
+          <span>
+            <ModalBox />
+          </span>
         </h3>
         <img src={img1} className="image-empty" />
 
@@ -45,7 +49,7 @@ const Cart = ({ user }) => {
       </div>
     );
   }
-
+  // cart with items
   return (
     <>
       <div className="cart">

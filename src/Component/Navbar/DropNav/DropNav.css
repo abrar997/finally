@@ -12,6 +12,7 @@
   z-index: 5;
   top: 90px;
   height: 60px;
+
 }
 .drop .collapse .navbar-nav {
   margin-left: 400px;
@@ -25,4 +26,4 @@
 .drop .navbar-nav .nav-item .nav-link:hover {
   color: #3939c9;
 }
-
+.drop .navbar-nav .nav-item .nav-link:focus{border-bottom: 2px solid #4785f1;}

@@ -127,8 +127,10 @@
   display: block;
 }
 
-.modals .btn{width:100px;
-text-align: center;}
+.modals .btn {
+  width: 100px;
+  text-align: center;
+}
 
 /*------------------- */
 
@@ -152,10 +154,11 @@ text-align: center;}
   .NewSection h6 {
     font-size: 10px;
   }
-  .NewSection .btn {
-    font-size: 13px;
-    width: 90px;
-  }
+.modals .btn {
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+}
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
@@ -178,7 +181,7 @@ text-align: center;}
   }
   .NewSection .btn {
     font-size: 13px;
-    width: 90px;
+    width: 130px;
   }
 }
 @media all and (min-width: 769px) and (max-width: 992px) {
