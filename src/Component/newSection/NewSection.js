@@ -10,7 +10,10 @@ const NewSection = () => {
             <img src={require("./NewImage/bss.png").default} />
           </div>
           <div className="col-lg-6 text-newswection" data-aos="fade-left">
-            <h1>code/Mu. academy </h1>
+            <div className="wrapper">
+              {" "}
+              <h1 className="typing-demo">code<span>/</span>Mu. <span>a</span>cadem<span>y</span> </h1>
+            </div>
             <br />
             <h6>
               Build skills with courses and certificates from world-class

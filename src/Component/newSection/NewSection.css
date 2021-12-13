@@ -17,7 +17,40 @@
   margin-top: 290px;
   font-size: 60px;
 }
+.NewSection span:nth-child(1){color: #4785f1;}
+.NewSection span:nth-child(2){color: #4785f1;}
+.NewSection span:nth-child(3){color: #4785f1;}
 
+/* h1 classNAme*/
+.wrapper {
+  /* height: 100vh; */
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 5s steps(22) infinite, blink 15s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #4785f1;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+/* ---- */
 .NewSection .btn {
   width: 200px;
   border: 1px solid #4785f1;
@@ -27,12 +60,17 @@
   background-color: #4785f1;
   height: 50px;
 }
+.NewSection .btn:hover{background-color: #0000ff;
+transition:.7s ease;}
 .NewSection .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
   color: white;
   font-size: 19px !important;
   text-transform: lowercase !important;
   margin: auto;
 }
+.boxModal .btn:hover{background-color: #0000ff !important;
+transition: .8s;}
+
 /* 0px to 552px  phone size*/
 @media all and (min-width: 0px) and (max-width: 575.98px) {
   .NewSection {

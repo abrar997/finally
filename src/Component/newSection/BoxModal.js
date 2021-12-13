@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { Link } from "react-router-dom";
-
+import './NewSection.css';
 const style = {
   position: "absolute",
   top: "50%",
@@ -25,6 +25,9 @@ const buttonStyle = {
   color: "white",
   margin: "auto",
   textTransform: "capitalize",
+  // "&:hover": {
+  //   background: "rgb(7, 177, 77, 0.42)",
+  // },
 };
 
 const ModalBox = () => {
@@ -33,7 +36,7 @@ const ModalBox = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
+    <div classNAme="boxModal">
       <Button
         onClick={handleOpen}
         sx={{
