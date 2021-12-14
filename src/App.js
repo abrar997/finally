@@ -18,7 +18,7 @@ import app from "./Component/Authentication/firebase";
 import CommnetsRefrence from './Component/Comment/CommnetsRefrence'
 import Login from "./Component/Authentication/Login/Login";
 import Signup from "./Component/Authentication/Signup/Signup";
-
+import NotFound from './Component/NotFound/NotFound'
 // firebase authentication
 const auth = app.auth();
 const user = auth.currentUser;
@@ -61,6 +61,7 @@ const App = () => {
           <Route component={CommnetsRefrence} path="/CommnetsRefrence" />
           <Route component={Login} path="/Login" />
           <Route component={Signup} path="/Signup" />
+          <Route  component={NotFound} />
         </Switch>
       </Router>
     </CartProvider>
