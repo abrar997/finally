@@ -7,7 +7,7 @@ const divStyle = {
   flexFlow: "column",
   justifyContent: "center",
   alignItems: "center",
-  marginTop: "100px",
+  marginTop: "300px",
   textAlign: "center",
   boxShadow: "inset 1px 1px 17px  rgb(209, 206, 206)",
   padding: "40px",
