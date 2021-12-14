@@ -37,9 +37,9 @@ const Courses = () => {
                 published every month
               </h5>
             </div>
-            <div className="buttons">
+            <div className="buttons button-course">
               {/* buttons for courses good job !!! */}
-              <button onClick={handleClick}>web development </button>
+              <button onClick={handleClick}>web development</button>
               <button onClick={handleClick2}>Mobile development</button>
               <button onClick={handleClick3}>Game development</button>
               <button onClick={handleClick1}>data science</button>
